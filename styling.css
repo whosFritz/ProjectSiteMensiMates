@@ -4,3 +4,13 @@
   margin-right: 20px;
   margin-bottom: 20px;
 }
+#toggle-button::before {
+  content: "➜";
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+
+#toggle-button.rotated::before {
+  transform: rotate(90deg);
+}

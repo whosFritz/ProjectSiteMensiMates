@@ -124,6 +124,10 @@
       $(".navbar-nav a").on("click", function () {
         $(".navbar-collapse").collapse("hide");
       });
+      const toggleButton = document.getElementById("toggle-button");
+      toggleButton.addEventListener("click", () => {
+        toggleButton.classList.toggle("rotated");
+      });
     </script>
     <section class="start-section text-center" id="start">
       <h1>MensiMates</h1>
@@ -190,102 +194,238 @@
       </div>
     </section>
     <section class="team-section text-center" id="team">
+      <script>
+        const toggleButton = document.getElementById("toggle-button");
+        toggleButton.addEventListener("click", () => {
+          toggleButton.classList.toggle("rotated");
+        });
+      </script>
       <h1 class="text-center mt-5">Our Team</h1>
       <div class="container mt-5">
         <div class="row">
           <div class="col-md-6">
             <figure class="figure">
               <img
-                src="https://via.placeholder.com/300x300"
+                src="Bild-fritz.jpg"
                 class="figure-img img-fluid rounded"
-                alt="Team Member 1"
+                alt="Fritz Schubert"
               />
-              <figcaption class="figure-caption">
-                <h5>Team Member 1</h5>
-                <p>
-                  <button
-                    class="btn btn-primary"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseExample1"
-                    aria-expanded="false"
-                    aria-controls="collapseExample1"
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse1"
+                        aria-expanded="true"
+                        aria-controls="collapse1"
+                      >
+                        Fritz Schubert
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapse1"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
                   >
-                    Role
-                  </button>
-                </p>
-                <div class="collapse" id="collapseExample1">
-                  <div class="card card-body">
-                    Team Member 1 is responsible for...
-                    <br /><br />
-                    <a href="#">LinkedIn Profile</a>
+                    <div class="card-body">
+                      <p>
+                        Fritz Schubert is handling the Development of the entire
+                        mobile Platform and head of the project.
+                      </p>
+                      <a
+                        href="https://www.linkedin.com/in/fritz-schubert-616a00246/"
+                        target="_blank"
+                        >LinkedIn</a
+                      >
+                      /
+                      <a href="https://www.whosfritz.de" target="_blank"
+                        >Portfolio</a
+                      >
+                    </div>
                   </div>
                 </div>
-              </figcaption>
+              </div>
             </figure>
+            
           </div>
           <div class="col-md-6">
             <figure class="figure">
               <img
-                src="https://via.placeholder.com/300x300"
+                src="Bild-ole.jpeg"
                 class="figure-img img-fluid rounded"
-                alt="Team Member 2"
+                alt="Ole Einar Christoph"
               />
-              <figcaption class="figure-caption">
-                <h5>Team Member 2</h5>
-                <p>
-                  <button
-                    class="btn btn-primary"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseExample2"
-                    aria-expanded="false"
-                    aria-controls="collapseExample2"
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse2"
+                        aria-expanded="true"
+                        aria-controls="collapse2"
+                      >
+                        Ole Einar Christoph
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapse2"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
                   >
-                    Role
-                  </button>
-                </p>
-                <div class="collapse" id="collapseExample2">
-                  <div class="card card-body">
-                    Team Member 2 is responsible for...
-                    <br /><br />
-                    <a href="#">LinkedIn Profile</a>
+                    <div class="card-body">
+                      <p>
+                        Ole Einar Christoph is responsible for analysing and
+                        preparing the mealdata. He's doing the backend for the
+                        mobile app.
+                      </p>
+                      <a
+                        href="https://www.linkedin.com/in/ole-einar-christoph-097890264/"
+                        target="_blank"
+                        >LinkedIn</a
+                      >
+                    </div>
                   </div>
                 </div>
-              </figcaption>
+              </div>
             </figure>
           </div>
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5" text-center>
           <div class="col-md-4">
             <figure class="figure">
               <img
-                src="https://via.placeholder.com/300x300"
+                src="https://via.placeholder.com/250x250"
                 class="figure-img img-fluid rounded"
-                alt="Team Member 3"
+                alt="Florian Schmidt"
               />
-              <figcaption class="figure-caption">
-                <h5>Team Member 3</h5>
-                <p>
-                  <button
-                    class="btn btn-primary"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#collapseExample3"
-                    aria-expanded="false"
-                    aria-controls="collapseExample3"
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse3"
+                        aria-expanded="true"
+                        aria-controls="collapse3"
+                      >
+                        Florian Schmidt
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapse3"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
                   >
-                    Role
-                  </button>
-                </p>
-                <div class="collapse" id="collapseExample3">
-                  <div class="card card-body">
-                    Team Member 3 is responsible for...
-                    <br /><br />
-                    <a href="#">LinkedIn Profile</a>
+                    <div class="card-body">
+                      <p>
+                        Florian Schmidt helps with the design and functionality.
+                      </p>
+                      <a href="" target="_blank">LinkedIn</a>
+                    </div>
                   </div>
                 </div>
-              </figcaption>
+              </div>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="figure">
+              <img
+                src="Bild-len.jpg"
+                class="figure-img img-fluid rounded"
+                alt="Len Marten Porath"
+              />
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse4"
+                        aria-expanded="true"
+                        aria-controls="collapse4"
+                      >
+                        Len Marten Porath
+                      </button>
+                    </h5>
+                  </div>
+                  <div
+                    id="collapse4"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Len Marten Porath is testing the application as a user
+                        to prevent errors made by future users.
+                      </p>
+                      <a
+                        href="https://www.linkedin.com/in/len-marten-porath-315232263/"
+                        >LinkedIn</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="figure">
+              <img
+                src="Bild-lucas.jpg"
+                class="figure-img img-fluid rounded"
+                alt="Lucas Pascal Schmidt"
+              />
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapse5"
+                        aria-expanded="true"
+                        aria-controls="collapse5"
+                      >
+                        Lucas Pascal Schmidt
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapse5"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Lucas Pascal Schmidt works with Florian Schmidt together
+                        to make the experience for the user as perfect as
+                        possible.
+                      </p>
+                      <a href="">LinkedIn</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </figure>
           </div>
         </div>
