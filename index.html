@@ -94,7 +94,7 @@
             <a class="nav-link" href="#howitworks">How it works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#future">Future</a>
+            <a class="nav-link" href="#roadmap">Future</a>
           </li>
         </ul>
       </div>
@@ -210,6 +210,8 @@
         </div>
       </div>
     </section>
+    <hr />
+
     <section class="team-section text-center" id="team">
       <script>
         const toggleButton = document.getElementById("toggle-button");
@@ -261,8 +263,9 @@
                   >
                     <div class="card-body">
                       <p>
-                        Fritz Schubert is handling the Development of the entire
-                        mobile Platform and head of the project.
+                        Fritz Schubert started the project and is handling the
+                        development of the entire mobile platform and head of
+                        the project.
                       </p>
                       <a
                         href="https://www.linkedin.com/in/fritz-schubert-616a00246/"
@@ -395,9 +398,224 @@
         </div>
       </div>
     </section>
-    <section class="idea-section text-center"></section>
-    <section class="howitworks-section text-center" id="howitworks"></section>
-    <section class="future-section text-center" id="future"></section>
+    <hr />
+
+    <section id="idea" class="idea-section text-center">
+      <h2 class="font-weight-bold mt-5">Project Idea</h2>
+
+      <div class="container">
+        <div class="row">
+          <p class="font-weight-bold">
+            Our small project aimed to present the dishes from different
+            cafeterias in a better way. The Studentenwerks's original website is
+            too complex and equiped with false information. So Fritz Schubert
+            decided to come up with a better solution. Together with Ole they
+            developed a mobile app.
+          </p>
+          <h3>Just looking nice</h3>
+          <p class="font-weight-light">
+            With our platform, users can easily browse through a wide selection
+            of meals from cafeterias located all over Leipzig, view detailed
+            product information and compare prices.
+          </p>
+          <h3>Think about what u eat...</h3>
+          <p class="font-weight-light">
+            A key feature of the App is the rating option with which u can rate
+            the dishes u just ate. It just gives a community feeling to whole
+            atmosphere. Just imagine sitting at the cafeteria table with ur
+            friends and discussing which rating u should give the meal infront
+            of u. The App tries to make the user think about what he just ate.
+          </p>
+        </div>
+        <img
+          src="spaghetti-g39fa5e246_1920.jpg"
+          width="300px"
+          class="img-fluid mb-3"
+          style="margin-right: 1rem"
+          alt="Project Idea"
+        />
+        <img
+          src="user-satisfaction-2800863_960_720.png"
+          width="300px"
+          class="img-fluid"
+          alt="Everyone loves stars"
+        />
+      </div>
+    </section>
+    <hr />
+
+    <section class="howitworks-section text-center" id="howitworks">
+      <div class="mt-5">
+        <h2>Our Secrets...</h2>
+        <div class="accordion mt-4" id="accordionparent">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <strong> How does it work? </strong>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionparent"
+            >
+              <div class="accordion-body">
+                The app reads a json file from Ole's API and then translates all
+                the data into object oriented structure. If the user rates a
+                meal, the data gets send back to Ole where he can then update
+                his database and also the API's data.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <strong> Technology used </strong>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionparent"
+            >
+              <div class="accordion-body">
+                The application was developed as a whole using the crossplatfrom
+                framework Flutter. Flutter uses the programming language dart
+                which brings a high learning curve. U have one codebase which u
+                have to manage, after that Flutter just takes the lead and
+                compiles ur dart code into Swift, Java, Kotlin, .Net and
+                Javascript and CSS so u don't have to take care of that.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <strong> Where is the code? I want to contribute </strong>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionparent"
+            >
+              <div class="accordion-body">
+                The code of the whole application is published on Fritz's GitHub
+                Repository called Mensa-App. If u want to contribute to the
+                project dont't hesitate to open up any issues or reach to Fritz.
+                His contact data is listed on his
+                <a href="https://www.whosfritz.de" targe="_blank">website</a>.
+                Before installing please read the README file carefully so u
+                don't make any mistakes.
+                <p>
+                  <a
+                    href="https://www.github.com/whosfritz/Mensa-App"
+                    targe="_blank"
+                    >Link to GitHub Repo</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="mt-5" />
+    <section class="future-sectiontext-center" id="roadmap">
+      <h2>Future Plans</h2>
+      <p>
+        Here are our plans for the future of our software project and
+        application:
+      </p>
+    </section>
+    
+      <!-- Section: Timeline -->
+    </section><section class="roadmap-section">
+      <h2>Our Roadmap</h2>
+      <!-- Section: Timeline -->
+      <section class="py-5">
+        <ul class="timeline-with-icons">
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon">
+              <i class="fas fa-rocket text-primary fa-sm fa-fw"></i>
+            </span>
+
+            <h5 class="fw-bold">Our company starts its operations</h5>
+            <p class="text-muted mb-2 fw-bold">11 March 2020</p>
+            <p class="text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              necessitatibus adipisci, ad alias, voluptate pariatur officia
+              repellendus repellat inventore fugit perferendis totam dolor
+              voluptas et corrupti distinctio maxime corporis optio?
+            </p>
+          </li>
+
+          <li class="timeline-item mb-5 ">
+            <span class="timeline-icon">
+              <i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw"></i>
+            </span>
+            <h5 class="fw-bold">First customer</h5>
+            <p class="text-muted mb-2 fw-bold">19 March 2020</p>
+            <p class="text-muted">
+              Quisque ornare dui nibh, sagittis egestas nisi luctus nec. Sed
+              aliquet laoreet sapien, eget pulvinar lectus maximus vel.
+              Phasellus suscipit porta mattis.
+            </p>
+          </li>
+
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon">
+              <i class="fas fa-users text-primary fa-sm fa-fw"></i>
+            </span>
+            <h5 class="fw-bold">Our team exceeds 10 people</h5>
+            <p class="text-muted mb-2 fw-bold">24 June 2020</p>
+            <p class="text-muted">
+              Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Nulla ullamcorper arcu lacus, maximus
+              facilisis erat pellentesque nec. Duis et dui maximus dui aliquam
+              convallis. Quisque consectetur purus erat, et ullamcorper sapien
+              tincidunt vitae.
+            </p>
+          </li>
+          <li class="timeline-item mb-5">
+            <span class="timeline-icon">
+              <i class="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+            </span>
+            <h5 class="fw-bold">Earned the first million $!</h5>
+            <p class="text-muted mb-2 fw-bold">15 October 2020</p>
+            <p class="text-muted">
+              Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed
+              et urna sit amet massa dapibus tristique non finibus ligula. Nam
+              pharetra libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit
+              vulputate mattis.
+            </p>
+          </li>
+        </ul>
+      </section>
     <footer class="bg-light py-3">
       <div class="container">
         <p class="text-center">&copy; 2023 whosFritz | All rights reserved</p>
