@@ -214,7 +214,7 @@
         </div>
       </div>
     </section>
-    <hr/>
+    <hr />
     <section class="team-section text-center" id="team">
       <script>
         const toggleButton = document.getElementById("toggle-button");
@@ -260,7 +260,7 @@
                   </div>
                   <div
                     id="collapse1"
-                    class="collapse show"
+                    class="collapse"
                     aria-labelledby="headingOne"
                     data-parent="#accordion1"
                   >
@@ -319,7 +319,7 @@
                   </div>
                   <div
                     id="collapse2"
-                    class="collapse show"
+                    class="collapse"
                     aria-labelledby="headingOne"
                     data-parent="#accordion2"
                   >
@@ -377,7 +377,7 @@
                     </div>
                     <div
                       id="collapse5"
-                      class="collapse show"
+                      class="collapse"
                       aria-labelledby="headingOne"
                       data-parent="#accordion5"
                     >
@@ -465,13 +465,14 @@
                 data-bs-target="#collapseOne"
                 aria-expanded="true"
                 aria-controls="collapseOne"
+                data-bs-parent="#accordionparent"
               >
                 <strong> How does it work? </strong>
               </button>
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              class="accordion-collapse collapse"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionparent"
             >
@@ -492,6 +493,7 @@
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
+                data-bs-parent="#accordionparent"
               >
                 <strong> Technology used </strong>
               </button>
@@ -521,6 +523,7 @@
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
+                data-bs-parent="#accordionparent"
               >
                 <strong> Where is the code? I want to contribute </strong>
               </button>
