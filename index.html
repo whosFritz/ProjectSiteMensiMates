@@ -61,12 +61,6 @@
       class="navbar navbar-expand-lg navbar-light"
       style="background-color: transparent"
     >
-      <a
-        class="navbar-brand"
-        style="font-weight: bold"
-        href="https://projectmensimates.whosfritz.de"
-        >MensiMates</a
-      >
       <button
         class="navbar-toggler"
         type="button"
@@ -78,8 +72,11 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mx-auto">
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#start">Start</a>
           </li>
@@ -99,6 +96,7 @@
       </div>
     </nav>
   </header>
+
   <body>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
@@ -152,42 +150,57 @@
         </a>
       </div>
       <div class="container">
-        <h3 class="text-center mt-5">LOOK AT THIS !</h3>
-        <div class="row mt-5 text-center">
-          <div class="col-md-6">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center mt-5 mb-5">
+            <h3>LOOK AT THIS!</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4">
             <figure class="figure">
               <img
-                src="https://via.placeholder.com/400x300"
+                width="100%"
+                src="sc2.jpg"
                 class="figure-img img-fluid rounded"
                 alt="Image 1"
               />
-              <figcaption class="figure-caption">Image 1</figcaption>
+              <figcaption class="figure-caption">Beautiful Overview</figcaption>
             </figure>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <figure class="figure">
               <img
-                src="https://via.placeholder.com/400x300"
+                width="100%"
+                src="sc3.jpg"
+                class="figure-img img-fluid rounded"
+                alt="Image 1"
+              />
+              <figcaption class="figure-caption">Rating System</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-4">
+            <figure class="figure">
+              <img
+                width="100%"
+                src="sc1.jpg"
                 class="figure-img img-fluid rounded"
                 alt="Image 2"
               />
-              <figcaption class="figure-caption">Image 2</figcaption>
+              <figcaption class="figure-caption">
+                Home Screen Quick Short Cuts
+              </figcaption>
             </figure>
           </div>
         </div>
-        <div class="row mt-5">
-          <div class="col-md-12 text-center">
-            <figure class="figure" style="margin-right: 1rem">
-              <video class="figure-img img-fluid rounded" controls>
-                <source src="your-video.mp4" type="video/mp4" />
-              </video>
-              <figcaption class="figure-caption">Video</figcaption>
-            </figure>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6 text-center">
             <figure class="figure">
-              <video class="figure-img img-fluid rounded" controls>
-                <source src="your-video.mp4" type="video/mp4" />
+              <video class="figure-img img-fluid rounded" controls width="50%">
+                <source src="preview.mp4" type="video/mp4" />
               </video>
-              <figcaption class="figure-caption">Video</figcaption>
+              <figcaption class="figure-caption">
+                Great animations and fluid performance
+              </figcaption>
             </figure>
           </div>
         </div>
@@ -299,87 +312,91 @@
             </figure>
           </div>
         </div>
-        <div class="row mt-5" text-center>
-          <div class="col-md-4">
-            <figure class="figure">
-              <img
-                src="Bild-floo.PNG"
-                class="figure-img img-fluid rounded"
-                alt="Florian Schmidt"
-              />
-              <div class="accordion" id="accordion3">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button
-                        class="btn"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapse3"
-                        aria-expanded="true"
-                        aria-controls="collapse3"
-                      >
-                        Florian Schmidt
-                      </button>
-                    </h5>
-                  </div>
-                  <div
-                    id="collapse3"
-                    class="collapse show"
-                    aria-labelledby="headingOne"
-                    data-parent="#accordion3"
-                  >
-                    <div class="card-body">
-                      <p>
-                        Florian Schmidt helps with the design and functionality.
-                      </p>
-                      <a href="" target="_blank">LinkedIn</a>
+        <div class="container text-center">
+          <h3 class="text-center mt-5">Unser Team</h3>
+          <div class="row mt-5 text-center">
+            <div class="col-md-5">
+              <figure class="figure">
+                <img
+                  src="Bild-floo.PNG"
+                  class="figure-img img-fluid rounded"
+                  alt="Florian Schmidt"
+                />
+                <div class="accordion" id="accordion3">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#collapse3"
+                          aria-expanded="true"
+                          aria-controls="collapse3"
+                        >
+                          Florian Schmidt
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse3"
+                      class="collapse show"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordion3"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Florian Schmidt helps with the design and
+                          functionality.
+                        </p>
+                        <a href="" target="_blank">LinkedIn</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </figure>
-          </div>
-          <div class="col-md-4">
-            <figure class="figure">
-              <img
-                src="Bild-eric.jpg"
-                class="figure-img img-fluid rounded"
-                alt="Eric Jarka"
-              />
-              <div class="accordion" id="accordion5">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button
-                        class="btn"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapse5"
-                        aria-expanded="true"
-                        aria-controls="collapse5"
-                      >
-                        Eric Jarka
-                      </button>
-                    </h5>
-                  </div>
-                  <div
-                    id="collapse5"
-                    class="collapse show"
-                    aria-labelledby="headingOne"
-                    data-parent="#accordion5"
-                  >
-                    <div class="card-body">
-                      <p>
-                        Eric Jarka is head of marketing and advertisment. He
-                        designs the logos for the app.
-                      </p>
-                      <a href="">LinkedIn</a>
+              </figure>
+            </div>
+            <div class="col-md-5">
+              <figure class="figure">
+                <img
+                  src="Bild-eric.jpg"
+                  class="figure-img img-fluid rounded"
+                  alt="Eric Jarka"
+                />
+                <div class="accordion" id="accordion5">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button
+                          class="btn"
+                          type="button"
+                          data-toggle="collapse"
+                          data-target="#collapse5"
+                          aria-expanded="true"
+                          aria-controls="collapse5"
+                        >
+                          Eric Jarka
+                        </button>
+                      </h5>
+                    </div>
+                    <div
+                      id="collapse5"
+                      class="collapse show"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordion5"
+                    >
+                      <div class="card-body">
+                        <p>
+                          Eric Jarka is head of marketing and advertisment. He
+                          designs the logos for the app.
+                        </p>
+                        <a href="">LinkedIn</a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </figure>
+              </figure>
+            </div>
           </div>
         </div>
       </div>
