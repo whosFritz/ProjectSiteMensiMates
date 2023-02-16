@@ -16,6 +16,7 @@ body {
   border-radius: 10px;
 }
 .navbar-nav .nav-link {
+  padding-left: 1rem;
   font-weight: bold;
   border-radius: 10px;
 }
