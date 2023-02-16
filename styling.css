@@ -11,6 +11,14 @@ section {
 body {
   background-color: #eee;
 }
+.navbar-expand-lg .navbar-collapse {
+  background-color: rgb(219, 219, 219);
+  border-radius: 10px;
+}
+.navbar-nav .nav-link {
+  font-weight: bold;
+  border-radius: 10px;
+}
 
 .mt-70 {
   margin-top: 70px;
